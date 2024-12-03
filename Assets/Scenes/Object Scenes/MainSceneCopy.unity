@@ -2004,19 +2004,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 499450632}
     m_Modifications:
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29.50384
+      value: 28.687248
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.040001
+      value: 0.1829958
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -68.86898
+      value: 10.895538
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2024,7 +2024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -2048,7 +2048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3311376263334054156, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Name
-      value: Roof Light (10)
+      value: MR1 Light 1
       objectReference: {fileID: 0}
     - target: {fileID: 6907654990578821190, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -2057,8 +2057,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 124551763}
   m_SourcePrefab: {fileID: 100100000, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+--- !u!4 &124551761 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 124551760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &124551762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 124551760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &124551763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124551762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1001 &128450297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3294,19 +3330,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1853915318}
     m_Modifications:
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.0038395
+      value: 7.18725
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.040001
+      value: 0.1829958
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -76.86898
+      value: 2.8955383
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3314,7 +3350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -3338,7 +3374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3311376263334054156, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Name
-      value: Roof Light (3)
+      value: MO Light 7
       objectReference: {fileID: 0}
     - target: {fileID: 6907654990578821190, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -3347,8 +3383,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 189676683}
   m_SourcePrefab: {fileID: 100100000, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+--- !u!4 &189676681 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 189676680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &189676682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 189676680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &189676683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189676682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1001 &197636900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6433,6 +6505,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!108 &435720776
 Light:
   m_ObjectHideFlags: 0
@@ -6663,19 +6746,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1853915318}
     m_Modifications:
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.0038395
+      value: 7.18725
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.040001
+      value: 0.1829958
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -68.86898
+      value: 10.895538
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6683,7 +6766,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -6707,7 +6790,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3311376263334054156, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Name
-      value: Roof Light (1)
+      value: MO Light 6
       objectReference: {fileID: 0}
     - target: {fileID: 6907654990578821190, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -6716,8 +6799,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 456879179}
   m_SourcePrefab: {fileID: 100100000, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+--- !u!4 &456879177 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 456879176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &456879178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 456879176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &456879179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456879178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1001 &463969680
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7239,6 +7358,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95254ac0923c24d348f4993a0b5be633, type: 3}
   m_PrefabInstance: {fileID: 487065446}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &499450631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 499450632}
+  m_Layer: 0
+  m_Name: Meeting Room 1 Lights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &499450632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499450631}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -48.38781, y: -1.7684717, z: -6.565857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 124551761}
+  - {fileID: 1222313817}
+  m_Father: {fileID: 1321367301}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &500469167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10975,19 +11127,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1853915318}
     m_Modifications:
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.00384
+      value: 17.187248
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.040001
+      value: 0.1829958
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -84.86898
+      value: -5.1044617
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10995,7 +11147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -11019,7 +11171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3311376263334054156, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Name
-      value: Roof Light (4)
+      value: MO Light 3
       objectReference: {fileID: 0}
     - target: {fileID: 6907654990578821190, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -11028,8 +11180,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 772264379}
   m_SourcePrefab: {fileID: 100100000, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+--- !u!4 &772264377 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 772264376}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &772264378 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 772264376}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &772264379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772264378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1001 &776537937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12954,19 +13142,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1853915318}
     m_Modifications:
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.00384
+      value: 17.187248
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.040001
+      value: 0.1829958
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -68.86898
+      value: 10.895538
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12974,7 +13162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -12998,7 +13186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3311376263334054156, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Name
-      value: Roof Light
+      value: MO Light 1
       objectReference: {fileID: 0}
     - target: {fileID: 6907654990578821190, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -13007,8 +13195,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 913396177}
   m_SourcePrefab: {fileID: 100100000, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+--- !u!4 &913396175 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 913396174}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &913396176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 913396174}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &913396177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913396176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1001 &914299285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13931,19 +14155,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1853915318}
     m_Modifications:
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.0038395
+      value: 7.18725
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.040001
+      value: 0.1829958
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -84.86898
+      value: -5.1044617
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13951,7 +14175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -13975,7 +14199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3311376263334054156, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Name
-      value: Roof Light (7)
+      value: MO Light 8
       objectReference: {fileID: 0}
     - target: {fileID: 6907654990578821190, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -13984,8 +14208,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 973429792}
   m_SourcePrefab: {fileID: 100100000, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+--- !u!4 &973429790 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 973429789}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &973429791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 973429789}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &973429792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973429791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1001 &975552143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16073,7 +16333,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1321367301}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalScale.x
@@ -16089,15 +16349,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.765804
+      value: -67.97021
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.162461
+      value: -1.463016
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -122.02946
+      value: -48.830795
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16105,7 +16365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalRotation.y
@@ -16133,13 +16393,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_Name
-      value: rugDoormat
+      value: Roof
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
+--- !u!4 &1118842506 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
+  m_PrefabInstance: {fileID: 1118842505}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1119016759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16704,6 +16969,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 0}
 --- !u!4 &1168377546
 Transform:
   m_ObjectHideFlags: 0
@@ -17800,19 +18070,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1853915318}
     m_Modifications:
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.0038395
+      value: 7.18725
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.040001
+      value: 0.1829958
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -92.86898
+      value: -13.104462
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17820,7 +18090,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -17844,7 +18114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3311376263334054156, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Name
-      value: Roof Light (5)
+      value: MO Light 9
       objectReference: {fileID: 0}
     - target: {fileID: 6907654990578821190, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -17853,27 +18123,63 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1221171073}
   m_SourcePrefab: {fileID: 100100000, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+--- !u!4 &1221171071 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 1221171070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1221171072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 1221171070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1221171073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221171072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1001 &1222313816
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 499450632}
     m_Modifications:
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29.50384
+      value: 28.687248
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.040001
+      value: 0.1829958
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -76.86898
+      value: 2.8955383
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17881,7 +18187,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -17905,7 +18211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3311376263334054156, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Name
-      value: Roof Light (11)
+      value: MR1 Light 2
       objectReference: {fileID: 0}
     - target: {fileID: 6907654990578821190, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -17914,8 +18220,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1222313819}
   m_SourcePrefab: {fileID: 100100000, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+--- !u!4 &1222313817 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 1222313816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1222313818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 1222313816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1222313819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222313818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1001 &1242439446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18988,6 +19330,40 @@ Transform:
   - {fileID: 205097349}
   m_Father: {fileID: 500892064}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1321367300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1321367301}
+  m_Layer: 0
+  m_Name: Roof
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1321367301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321367300}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 49.204403, y: 8.625477, z: -73.19866}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1118842506}
+  - {fileID: 499450632}
+  - {fileID: 1853915318}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1324632593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19402,19 +19778,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1853915318}
     m_Modifications:
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.00384
+      value: 17.187248
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.040001
+      value: 0.1829958
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -100.86898
+      value: -21.104462
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19422,7 +19798,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -19446,7 +19822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3311376263334054156, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Name
-      value: Roof Light (8)
+      value: MO Light 5
       objectReference: {fileID: 0}
     - target: {fileID: 6907654990578821190, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -19455,8 +19831,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1352733406}
   m_SourcePrefab: {fileID: 100100000, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+--- !u!4 &1352733404 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 1352733403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1352733405 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 1352733403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1352733406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352733405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1001 &1355091482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20764,19 +21176,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1853915318}
     m_Modifications:
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.00384
+      value: 17.187248
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.040001
+      value: 0.1829958
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -92.86898
+      value: -13.104462
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20784,7 +21196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -20808,7 +21220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3311376263334054156, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Name
-      value: Roof Light (6)
+      value: MO Light 4
       objectReference: {fileID: 0}
     - target: {fileID: 6907654990578821190, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -20817,8 +21229,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1423379929}
   m_SourcePrefab: {fileID: 100100000, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+--- !u!4 &1423379927 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 1423379926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1423379928 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 1423379926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1423379929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423379928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1001 &1426766284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27670,19 +28118,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1853915318}
     m_Modifications:
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.00384
+      value: 17.187248
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.040001
+      value: 0.1829958
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -76.86898
+      value: 2.8955383
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -27690,7 +28138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -27714,7 +28162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3311376263334054156, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Name
-      value: Roof Light (2)
+      value: MO Light 2
       objectReference: {fileID: 0}
     - target: {fileID: 6907654990578821190, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -27723,8 +28171,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1847501087}
   m_SourcePrefab: {fileID: 100100000, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+--- !u!4 &1847501085 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 1847501084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1847501086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 1847501084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1847501087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847501086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &1849377572
 GameObject:
   m_ObjectHideFlags: 0
@@ -27816,6 +28300,47 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1853915317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1853915318}
+  m_Layer: 0
+  m_Name: Main Office Lights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1853915318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853915317}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -48.38781, y: -1.7684717, z: -6.565857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 913396175}
+  - {fileID: 1847501085}
+  - {fileID: 772264377}
+  - {fileID: 1423379927}
+  - {fileID: 1352733404}
+  - {fileID: 456879177}
+  - {fileID: 189676681}
+  - {fileID: 973429790}
+  - {fileID: 1221171071}
+  - {fileID: 1891073225}
+  m_Father: {fileID: 1321367301}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1858700628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28280,19 +28805,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1853915318}
     m_Modifications:
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.0038395
+      value: 7.18725
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.040001
+      value: 0.1829958
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -100.86898
+      value: -21.104462
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -28300,7 +28825,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_LocalRotation.y
@@ -28324,7 +28849,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3311376263334054156, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Name
-      value: Roof Light (9)
+      value: MO Light 10
       objectReference: {fileID: 0}
     - target: {fileID: 6907654990578821190, guid: bdc518750f1745042a7dd6721765903c, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -28333,8 +28858,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1891073227}
   m_SourcePrefab: {fileID: 100100000, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+--- !u!4 &1891073225 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2792108101277291446, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 1891073224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1891073226 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6839278675479532564, guid: bdc518750f1745042a7dd6721765903c, type: 3}
+  m_PrefabInstance: {fileID: 1891073224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1891073227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891073226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &1896954204
 GameObject:
   m_ObjectHideFlags: 0
@@ -31811,16 +32372,4 @@ SceneRoots:
   - {fileID: 435720777}
   - {fileID: 1715639967}
   - {fileID: 1077421697}
-  - {fileID: 913396174}
-  - {fileID: 124551760}
-  - {fileID: 1847501084}
-  - {fileID: 1222313816}
-  - {fileID: 772264376}
-  - {fileID: 1423379926}
-  - {fileID: 1352733403}
-  - {fileID: 456879176}
-  - {fileID: 189676680}
-  - {fileID: 1221171070}
-  - {fileID: 1891073224}
-  - {fileID: 973429789}
-  - {fileID: 1118842505}
+  - {fileID: 1321367301}
