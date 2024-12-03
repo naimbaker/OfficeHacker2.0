@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 1c41da832ecadea449b1ef9abc9427f6
+AssetOrigin:
+  serializedVersion: 1
+  productId: 17090
+  packageName: Modular Railing Set
+  packageVersion: 1.0
+  assetPath: Assets/modularRalingSet/fbx/modularRailingsSet.FBX
+  uploadId: 5782
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable:
@@ -250,7 +257,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 0
     fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
@@ -263,12 +270,12 @@ ModelImporter:
     meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
+    secondaryUVAreaDistortion: 15
     secondaryUVHardAngle: 88
     secondaryUVMarginMethod: 0
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
-    secondaryUVPackMargin: 4
+    secondaryUVPackMargin: 64
     useFileScale: 0
     strictVertexDataChecks: 0
   tangentSpace:
@@ -309,10 +316,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 17090
-  packageName: Modular Railing Set
-  packageVersion: 1.0
-  assetPath: Assets/modularRalingSet/fbx/modularRailingsSet.FBX
-  uploadId: 5782
