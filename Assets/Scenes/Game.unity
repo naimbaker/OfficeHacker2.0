@@ -12912,31 +12912,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2198369985748330525, guid: 5cb974f3c4bb83d49a1afda6b440d4d4, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9180908
+      value: 0.85187227
       objectReference: {fileID: 0}
     - target: {fileID: 2198369985748330525, guid: 5cb974f3c4bb83d49a1afda6b440d4d4, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.18501963
+      value: 0.14862186
       objectReference: {fileID: 0}
     - target: {fileID: 2198369985748330525, guid: 5cb974f3c4bb83d49a1afda6b440d4d4, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.350022
+      value: -0.49474707
       objectReference: {fileID: 0}
     - target: {fileID: 2198369985748330525, guid: 5cb974f3c4bb83d49a1afda6b440d4d4, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.019019954
+      value: 0.08631603
       objectReference: {fileID: 0}
     - target: {fileID: 2198369985748330525, guid: 5cb974f3c4bb83d49a1afda6b440d4d4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 20.674
+      value: 19.793
       objectReference: {fileID: 0}
     - target: {fileID: 2198369985748330525, guid: 5cb974f3c4bb83d49a1afda6b440d4d4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -42.798
+      value: -60.294
       objectReference: {fileID: 0}
     - target: {fileID: 2198369985748330525, guid: 5cb974f3c4bb83d49a1afda6b440d4d4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -5.803
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4352886884442541345, guid: 5cb974f3c4bb83d49a1afda6b440d4d4, type: 3}
       propertyPath: field of view
@@ -31387,43 +31387,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -67.97021
+      value: -67.32143
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.463016
+      value: -1.3651409
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -73.82
+      value: -74.16798
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.99998486
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.000619997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.0054586134
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.0003794125
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 0.071
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -0.626
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -0.044
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 50fcffd4cea7195429b9eae334057982, type: 3}
       propertyPath: m_ConstrainProportionsScale
