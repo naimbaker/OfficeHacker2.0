@@ -9271,8 +9271,8 @@ Transform:
   m_Children:
   - {fileID: 932169268}
   - {fileID: 338500170}
-  - {fileID: 1937776445}
   - {fileID: 1729720211}
+  - {fileID: 1937776445}
   - {fileID: 1635274545}
   - {fileID: 1145336277}
   - {fileID: 276857261}
@@ -35577,7 +35577,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4542106969686618187, guid: 5cb974f3c4bb83d49a1afda6b440d4d4, type: 3}
       propertyPath: m_Name
-      value: Main Office 2 (1)
+      value: Meeting Room 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
