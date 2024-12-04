@@ -14618,6 +14618,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1497422924137506564, guid: 18566a61b75973749b7a37b617d7fa4b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 865396663}
+    - targetCorrespondingSourceObject: {fileID: 1497422924137506564, guid: 18566a61b75973749b7a37b617d7fa4b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 865396671}
   m_SourcePrefab: {fileID: 100100000, guid: 18566a61b75973749b7a37b617d7fa4b, type: 3}
 --- !u!4 &865396651 stripped
 Transform:
@@ -14911,6 +14914,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.0025007725, g: 1, b: 0, a: 0}
+--- !u!114 &865396671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865396652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e235e92837be6499eb150a1579143f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newColor: {r: 1, g: 0, b: 0, a: 1}
+  stressImpact: 0
+  newScale: {x: 2, y: 2, z: 2}
 --- !u!1001 &869718837
 PrefabInstance:
   m_ObjectHideFlags: 0
