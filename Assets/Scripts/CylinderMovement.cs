@@ -19,6 +19,9 @@ public class CylinderMovement : MonoBehaviour
     private bool runToMouse = false; // Tracks if the boss is chasing the mouse
     private GameObject mouseObject; // Tracks the mouse object
 
+    private bool runToMeeting = false; // Tracks if the boss is headed to the meeting
+    private GameObject meetingObject; // Tracks the meeting object
+
     void Start()
     {
         if (agent == null)
@@ -31,6 +34,10 @@ public class CylinderMovement : MonoBehaviour
         // Subscribe to the radio and mouse event
         RadioClick.OnRadioActivated += MoveToRadio;
         MouseClick.MouseActivated += MoveToMouse;
+
+        MeetingArea1.MeetingCall += MoveToMeeting;
+
+
     }
 
     void Update()
@@ -89,6 +96,8 @@ public class CylinderMovement : MonoBehaviour
         // Unsubscribe to avoid memory leaks
         RadioClick.OnRadioActivated -= MoveToRadio;
         MouseClick.MouseActivated -= MoveToMouse;
+
+        MeetingArea1.MeetingCall -= MoveToMeeting;
     }
 
     void WanderRandomly()
@@ -141,6 +150,7 @@ public class CylinderMovement : MonoBehaviour
     {
         // Make sure the mouseObject is found when needed
         mouseObject = FindObjectOfType<MouseClick>()?.gameObject;
+        meetingObject = FindObjectOfType<MeetingArea1>()?.gameObject; 
 
         if (mouseObject != null)
         {
@@ -153,6 +163,34 @@ public class CylinderMovement : MonoBehaviour
         else
         {
             Debug.LogError("Mouse object is not assigned!");
+        }
+        if (PasswordPuzzle.isLoggedIn)
+        {
+            if (meetingObject != null)
+            {
+                MoveToMeeting(meetingObject.transform.position);
+            }
+            else
+            {
+                Debug.LogError("Meeting object is not assigned!");
+            }
+        }
+    }
+
+    void MoveToMeeting(Vector3 meetingPosition)
+    {
+        meetingObject = FindObjectOfType<MeetingArea1>()?.gameObject;
+
+        if (meetingObject != null)
+        {
+            runToMeeting = true;
+            agent.SetDestination(meetingPosition);
+            exclamationPoint.SetActive(false);
+            Debug.Log("Boss is moving to the meeting at " + meetingPosition);
+        }
+        else
+        {
+            Debug.LogError("Meeting object is not assigned!");
         }
     }
 
