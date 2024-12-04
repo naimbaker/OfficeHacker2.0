@@ -307,6 +307,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b01e23637e4efc47905796cfaac8719, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5927534}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b01e23637e4efc47905796cfaac8719, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5927537}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b01e23637e4efc47905796cfaac8719, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5927538}
   m_SourcePrefab: {fileID: 100100000, guid: 6b01e23637e4efc47905796cfaac8719, type: 3}
 --- !u!4 &5927532 stripped
 Transform:
@@ -332,7 +338,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   painting: {fileID: 0}
   paintingBorder: {fileID: 0}
-  stressImpact: 5
+  stressImpact: 15
+--- !u!114 &5927537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5927533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294da8ee92f1f294fbc044825aedbfb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverColor: {r: 0.14509805, g: 1, b: 0, a: 0}
+--- !u!65 &5927538
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5927533}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005939999, y: 0.00015749314, z: 0.008409998}
+  m_Center: {x: 0, y: -0.00007979965, z: 0}
 --- !u!1001 &14893318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14182,7 +14222,7 @@ MonoBehaviour:
   newMaterial: {fileID: -3963241562183589234, guid: 6224adae63ee283499696a98d4a2150b, type: 3}
   stressImpact: 0
   targetMaterialIndex: 1
-  isStressful: 0
+  isTV: 0
 --- !u!114 &782820759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16030,6 +16070,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 726d9c4a30189c84e89bd63d009db9a6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 831822486}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 726d9c4a30189c84e89bd63d009db9a6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 831822490}
   m_SourcePrefab: {fileID: 100100000, guid: 726d9c4a30189c84e89bd63d009db9a6, type: 3}
 --- !u!4 &831822484 stripped
 Transform:
@@ -16077,9 +16120,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetObject: {fileID: 831822485}
   newMaterial: {fileID: 2100000, guid: dfe51c2287431a541b18a59a420cf9b1, type: 2}
-  stressImpact: 100
+  stressImpact: 200
   targetMaterialIndex: 1
-  isStressful: 0
+  isTV: 1
+--- !u!114 &831822490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831822485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294da8ee92f1f294fbc044825aedbfb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverColor: {r: 0.14509805, g: 1, b: 0, a: 0}
 --- !u!1001 &832746719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28309,7 +28365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 294da8ee92f1f294fbc044825aedbfb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0.0036804676, g: 1, b: 0, a: 0}
+  hoverColor: {r: 0.14509805, g: 1, b: 0, a: 0}
 --- !u!1 &1522852477
 GameObject:
   m_ObjectHideFlags: 0
