@@ -8,6 +8,9 @@ public class NPCMovement : MonoBehaviour
     public float wanderInterval = 3f;
 
     private float timer;
+    private bool isAtMeeting = false;
+    private bool runToMeeting = false; // Tracks if the boss is headed to the meeting
+    private GameObject meetingObject; // Tracks the meeting object
 
     void Start()
     {
@@ -15,10 +18,17 @@ public class NPCMovement : MonoBehaviour
             agent = GetComponent<NavMeshAgent>();
 
         WanderRandomly();
+
+        MeetingArea1.MeetingCall += MoveToMeeting;
     }
 
     void Update()
     {
+        if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+        {
+            return;
+        }
+
         timer += Time.deltaTime;
 
         if (timer >= wanderInterval && !agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
@@ -26,12 +36,45 @@ public class NPCMovement : MonoBehaviour
             WanderRandomly();
             timer = 0;
         }
+
+        if (PasswordPuzzle.isLoggedIn)
+        {
+            if (meetingObject != null)
+            {
+                MoveToMeeting(meetingObject.transform.position);
+            }
+            else
+            {
+                Debug.LogError("Meeting object is not assigned!");
+            }
+        }
+    }
+
+    void OnDestroy()
+    {
+        MeetingArea1.MeetingCall -= MoveToMeeting;
     }
 
     void WanderRandomly()
     {
         Vector3 randomDestination = RandomNavMeshPoint(transform.position, wanderRadius);
         agent.SetDestination(randomDestination);
+    }
+
+    void MoveToMeeting(Vector3 meetingPosition)
+    {
+        meetingObject = FindObjectOfType<MeetingArea1>()?.gameObject;
+
+        if (meetingObject != null)
+        {
+            runToMeeting = true;
+            agent.SetDestination(meetingPosition);
+            Debug.Log("Boss is moving to the meeting at " + meetingPosition);
+        }
+        else
+        {
+            Debug.LogError("Meeting object is not assigned!");
+        }
     }
 
     Vector3 RandomNavMeshPoint(Vector3 origin, float radius)
