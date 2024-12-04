@@ -291,7 +291,7 @@ PrefabInstance:
     - target: {fileID: -2690203382554128138, guid: 18566a61b75973749b7a37b617d7fa4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: c3bb476702892ea4783353e20d7092b4, type: 2}
+      objectReference: {fileID: 2100000, guid: c7d3045e45a2c86428c2505ee3e42aae, type: 2}
     - target: {fileID: 919132149155446097, guid: 18566a61b75973749b7a37b617d7fa4b, type: 3}
       propertyPath: m_Name
       value: (Msh)PC
@@ -303,7 +303,7 @@ PrefabInstance:
     - target: {fileID: 5322742447338962540, guid: 18566a61b75973749b7a37b617d7fa4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: c3bb476702892ea4783353e20d7092b4, type: 2}
+      objectReference: {fileID: 2100000, guid: e794957ebe9429e43a0c8445e64aef03, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -426,7 +426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 294da8ee92f1f294fbc044825aedbfb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 1, g: 0, b: 0, a: 0}
+  hoverColor: {r: 0.018116832, g: 1, b: 0, a: 0}
 --- !u!114 &14893333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -439,7 +439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 294da8ee92f1f294fbc044825aedbfb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  hoverColor: {r: 0, g: 1, b: 0.10136175, a: 0}
 --- !u!1 &16923003
 GameObject:
   m_ObjectHideFlags: 0
@@ -14568,7 +14568,7 @@ PrefabInstance:
     - target: {fileID: -2690203382554128138, guid: 18566a61b75973749b7a37b617d7fa4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: c3bb476702892ea4783353e20d7092b4, type: 2}
+      objectReference: {fileID: 2100000, guid: c7d3045e45a2c86428c2505ee3e42aae, type: 2}
     - target: {fileID: 919132149155446097, guid: 18566a61b75973749b7a37b617d7fa4b, type: 3}
       propertyPath: m_Name
       value: (Msh)PC
@@ -14580,7 +14580,7 @@ PrefabInstance:
     - target: {fileID: 5322742447338962540, guid: 18566a61b75973749b7a37b617d7fa4b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: c3bb476702892ea4783353e20d7092b4, type: 2}
+      objectReference: {fileID: 2100000, guid: e794957ebe9429e43a0c8445e64aef03, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14600,9 +14600,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1497422924137506564, guid: 18566a61b75973749b7a37b617d7fa4b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 865396656}
-    - targetCorrespondingSourceObject: {fileID: 1497422924137506564, guid: 18566a61b75973749b7a37b617d7fa4b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 865396655}
     - targetCorrespondingSourceObject: {fileID: 1497422924137506564, guid: 18566a61b75973749b7a37b617d7fa4b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 865396654}
@@ -14722,21 +14719,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &865396655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 865396652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31e235e92837be6499eb150a1579143f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  newColor: {r: 1, g: 0, b: 0, a: 1}
-  stressImpact: 15
-  newScale: {x: 2, y: 2, z: 2}
 --- !u!65 &865396656
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14903,7 +14885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 294da8ee92f1f294fbc044825aedbfb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  hoverColor: {r: 0, g: 1, b: 0.11850643, a: 0}
 --- !u!114 &865396666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14916,7 +14898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 294da8ee92f1f294fbc044825aedbfb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  hoverColor: {r: 0.0025007725, g: 1, b: 0, a: 0}
 --- !u!1001 &869718837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20108,6 +20090,7 @@ GameObject:
   - component: {fileID: 1209287557}
   - component: {fileID: 1209287556}
   - component: {fileID: 1209287555}
+  - component: {fileID: 1209287560}
   m_Layer: 0
   m_Name: paintingOutline
   m_TagString: Untagged
@@ -20286,7 +20269,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c3bb476702892ea4783353e20d7092b4, type: 2}
+  - {fileID: 2100000, guid: c754406afaf73d14885aa6d93f4fbc29, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20316,6 +20299,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1209287553}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1209287560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209287553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294da8ee92f1f294fbc044825aedbfb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverColor: {r: 0, g: 1, b: 0.09281945, a: 0}
 --- !u!1 &1252862264
 GameObject:
   m_ObjectHideFlags: 0
@@ -24173,7 +24169,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 96b7e2269dbf89d4f87156b5fad6a83e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: c3bb476702892ea4783353e20d7092b4, type: 2}
+      objectReference: {fileID: 2100000, guid: 62670b2c53d52c0488c081594a090aea, type: 2}
     - target: {fileID: 919132149155446097, guid: 96b7e2269dbf89d4f87156b5fad6a83e, type: 3}
       propertyPath: m_Name
       value: fallingPlant
@@ -24379,7 +24375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 294da8ee92f1f294fbc044825aedbfb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  hoverColor: {r: 0.0036804676, g: 1, b: 0, a: 0}
 --- !u!1 &1522852477
 GameObject:
   m_ObjectHideFlags: 0
@@ -25947,10 +25943,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1029108691}
     m_Modifications:
+    - target: {fileID: 6997858881023957007, guid: 433f906c1e0e4f142b345b5355768278, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a0d0e8a763448b4491a3ede4d608a53, type: 2}
     - target: {fileID: 7523113457477881351, guid: 433f906c1e0e4f142b345b5355768278, type: 3}
       propertyPath: m_Name
       value: Painting 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8867473426742218198, guid: 433f906c1e0e4f142b345b5355768278, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 62670b2c53d52c0488c081594a090aea, type: 2}
     - target: {fileID: 8887317042211427880, guid: 433f906c1e0e4f142b345b5355768278, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.655638
@@ -26226,7 +26230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 294da8ee92f1f294fbc044825aedbfb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  hoverColor: {r: 0.093871, g: 1, b: 0, a: 0}
 --- !u!1001 &1655446009
 PrefabInstance:
   m_ObjectHideFlags: 0
