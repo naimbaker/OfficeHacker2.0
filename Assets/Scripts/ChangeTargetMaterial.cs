@@ -6,31 +6,23 @@ public class ChangeTargetMaterial : MonoBehaviour
     public Material newMaterial;
     public int stressImpact;
     public int targetMaterialIndex;
-    public bool isTV;
-
+    public bool isStressful;
 
 
     void OnMouseDown() {
-        if (isTV) {
-            if (PasswordPuzzle.isLoggedIn) {
-                changeMat();
-                targetObject = null;
-            } else {
-                return;
-            }
-        } else {
-            if (targetObject != null) {
-                changeMat();
-            }
-            targetObject = null;
-        } 
-    }
+        if (targetObject != null) {
+            Renderer targetRenderer = targetObject.GetComponent<Renderer>();
+            Material[] tmpMatList = targetRenderer.materials;
+            tmpMatList[1] = newMaterial;
+            targetRenderer.materials = tmpMatList;
 
-    private void changeMat() {
-        Renderer targetRenderer = targetObject.GetComponent<Renderer>();
-        Material[] tmpMatList = targetRenderer.materials;
-        tmpMatList[1] = newMaterial;
-        targetRenderer.materials = tmpMatList;
-        GlobalValues.stress += stressImpact;
+            GlobalValues.stress += stressImpact;
+
+
+        }
+
+        targetObject = null;
+
+
     }
 }

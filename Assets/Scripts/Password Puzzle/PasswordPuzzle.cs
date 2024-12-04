@@ -9,9 +9,10 @@ public class PasswordPuzzle : MonoBehaviour
     public string password;
     public TextMeshPro passwordDisplay;
     public TextMeshPro computerDisplay;
+    public GameObject strangePhoto;
+    public GameObject meetingTV;
     private int stressImpact;
     public static bool isLoggedIn;
-
 
     void Start()
     {
@@ -19,8 +20,8 @@ public class PasswordPuzzle : MonoBehaviour
         isComputerOn = false;
         isLoggedIn = false;
         stressImpact = 20;
-
-        
+        strangePhoto.SetActive(false);
+        meetingTV.SetActive(false);
     }
 
     void Update()
@@ -37,7 +38,7 @@ public class PasswordPuzzle : MonoBehaviour
                         computerDisplay.text = "Login Successful";
                         GlobalValues.stress += stressImpact;
                         isLoggedIn = true;
-                        
+                        Invoke("changeSecret", 2f);
                     } else {
                         computerDisplay.text = "Try Again";
                     }
@@ -67,6 +68,11 @@ public class PasswordPuzzle : MonoBehaviour
     string BackspaceString(string str) {
         return str.Substring(0, str.Length - 1);
         
+    }
+    void changeSecret() {
+        computerDisplay.text = "You Found the Boss' Secret.";
+        strangePhoto.SetActive(true);
+        meetingTV.SetActive(true);
     }
 
 
