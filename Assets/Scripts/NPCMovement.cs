@@ -68,6 +68,9 @@ public class NPCMovement : MonoBehaviour
         if (meetingObject != null)
         {
             runToMeeting = true;
+            agent.speed *= 3;
+            agent.acceleration *= 4;
+            agent.angularSpeed *= 6;
             agent.SetDestination(meetingPosition);
             Debug.Log("Employees are moving to the meeting at " + meetingPosition);
             meetingTime = true;
