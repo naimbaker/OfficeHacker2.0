@@ -8,7 +8,7 @@ public class NPCMovement : MonoBehaviour
     public float wanderInterval = 3f;
 
     private float timer;
-    private bool isAtMeeting = false;
+    private bool meetingTime = false;
     private bool runToMeeting = false; // Tracks if the boss is headed to the meeting
     private GameObject meetingObject; // Tracks the meeting object
 
@@ -24,7 +24,7 @@ public class NPCMovement : MonoBehaviour
 
     void Update()
     {
-        if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+        if (meetingTime == true)
         {
             return;
         }
@@ -69,7 +69,8 @@ public class NPCMovement : MonoBehaviour
         {
             runToMeeting = true;
             agent.SetDestination(meetingPosition);
-            Debug.Log("Boss is moving to the meeting at " + meetingPosition);
+            Debug.Log("Employees are moving to the meeting at " + meetingPosition);
+            meetingTime = true;
         }
         else
         {

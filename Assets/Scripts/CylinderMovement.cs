@@ -9,6 +9,7 @@ public class CylinderMovement : MonoBehaviour
     public float wanderInterval = 1f;
     public GameObject exclamationPoint;
 
+    private bool meetingTime = false;
     private Transform[] targetAreas;
     private float timer;
     private int currentTargetIndex = 0;
@@ -42,10 +43,13 @@ public class CylinderMovement : MonoBehaviour
 
     void Update()
     {
+        if (meetingTime == true)
+        {
+            return;
+        }
         
         if (runToRadio)
         {
-            
             // Check if boss has reached the radio
             if (!agent.pathPending && agent.remainingDistance <= (agent.stoppingDistance + 0.02))
             {
@@ -192,6 +196,8 @@ public class CylinderMovement : MonoBehaviour
         {
             Debug.LogError("Meeting object is not assigned!");
         }
+
+        meetingTime = true;
     }
 
     Vector3 RandomNavMeshPoint(Vector3 origin, float radius)
