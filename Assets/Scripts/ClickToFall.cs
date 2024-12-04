@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class ClickToFall : MonoBehaviour
 {
+    public int stressImpact;
     public Rigidbody fallingBlockBody;
     private AudioSource audioSource;
+    private bool collided = false;
 
     void Start()
     {
@@ -27,6 +29,15 @@ public class ClickToFall : MonoBehaviour
         if (audioSource != null && audioSource.enabled)
         {
             audioSource.Play();
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collided == false & collision.gameObject.CompareTag("Boss"))
+        {
+            GlobalValues.stress += stressImpact;
+            collided = true;
         }
     }
 }

@@ -28597,6 +28597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e5de52db476de4db083a3c89b69263, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stressImpact: 15
   fallingBlockBody: {fileID: 0}
 --- !u!64 &1519871144
 MeshCollider:
